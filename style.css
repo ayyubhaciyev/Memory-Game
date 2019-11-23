@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    margin: 0;
+  }
+  table {
+    margin: auto;
+  }
+  table,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    user-select: none;
+  }
+  td img {
+    width: 75px;
+    height: 75px;
+  }
