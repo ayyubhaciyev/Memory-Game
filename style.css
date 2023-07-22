@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+div{
+    text-align: center;
+    font: normal 25px Arial;
+}
