@@ -101,7 +101,7 @@ const checkWin = ()=>{
 const countDown = ()=>{
     if(time === 0){
         clearInterval(countDownStart);
-        alert("Game over!");
+        alert("Game over!!!");
         location.reload();
         return 0;
     }
